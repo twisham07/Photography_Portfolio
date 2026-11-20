@@ -1,0 +1,54 @@
+*{
+    background-color: rgb(49, 46, 46);
+}
+
+.buttonContainer{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    /* margin: 0px 0px 20px 0px; */
+    position: relative;
+    top: 0px;
+}
+
+button {
+    color: aliceblue;
+     width: 7rem;
+     border: 0px;
+     background-color: rgb(135, 67, 236);
+     border-radius: 2rem;
+     transition-duration: 0.3s;
+     cursor: pointer;
+}
+
+button:hover{
+    font-size: 1.5rem;
+}
+.imgContainer{
+    display: flex;
+    justify-content: center;
+    border: 5px solid yellow;
+    position: relative;
+    top: 0px;
+    /* left: 375px; */
+    margin: 0px 0px 20px 0px;
+    color: aliceblue;
+}
+img{
+    /* display: inline-block; */
+    width: 30em;
+    height: 30em;
+}
+
+@media (min-height:752px) and (max-height:856px){
+    .buttonContainer{
+        top:177px
+    }
+
+    .imgContainer{
+        top: 115px;
+    }
+}
+
+
+
